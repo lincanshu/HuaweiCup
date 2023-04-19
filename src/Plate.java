@@ -24,6 +24,10 @@ public class Plate implements Comparable<Plate>{
         this.area = width * length;
     }
 
+    public int getStage() {
+        return stage;
+    }
+
     public double diffWidth(Item item) {
         return this.width - item.getWidth();
     }
